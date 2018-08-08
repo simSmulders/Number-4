@@ -42,21 +42,64 @@ footer {
   margin: 0;
 }
 
+.menu {
+  margin: auto;
+  height: 100%;
+  padding: 0 0;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
 .subs {
   display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .section {
   display: inline;
-  padding-right: 30px;
+  /* padding-right: 30px; */
+  width: 150px;
+  height: 100%;
+  border: 2px;
+  background-color: bisque;
+  float: left;
 }
 
-.sub-section{
-    display: none;
+/* Dropdown button */
+.section .sectionBtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 16px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  width: 100%;
+
 }
+
+.section:hover .sectionBtn {
+  background-color: darkgoldenrod;
+}
+
 
 .section:hover .subs{
-    display: block;
-
+    display: inline;
 }
 
+.sub-section:hover {
+  background-color: darkgray;
+  height: 30px;
+}
+
+.sub-section {
+  height: 30px;
+  vertical-align: middle;
+  padding: 10px;
+  list-style-type: none;
+}
