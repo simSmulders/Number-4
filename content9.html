@@ -6,6 +6,8 @@
   <title>IPS - How to WEBDEV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="clean.css" />
+
   <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat|Varela+Round|Raleway|Nunito" rel="stylesheet">
   <script src="main.js"></script>
 </head>
@@ -87,16 +89,42 @@
   </header>
   <div id="main-content">
 
-    <!-- Content of other pages should be imported in this div by javascript -->
-    <div class="hero-image">
-      <img class="hero-img" src="images/hero-image-1.jpg" alt="Hero Image">
+      <div class="row">
+          <div class="column">
+                  <p>
+                          <span class="bigger">DRY</span>, what does it mean? Exept for the fact that it doesn't rain ... It is an acronym for Don't Repeat
+                          Yourself. Even though this sounds very logical it does happen easily when youre code is getting more and more
+                          extended and complex. It happens a lot that at some point you have created a piece of code twice for the same
+                          purpose. It is not hard to imagine that this complicates your code and an important part of clean code is to
+                          avoid this.
+                      </p>
+          </div>
+          <div class="column">
+                  <p>
+                          <img id="kiss" src="images/kiss.png">
+                          <span class="bigger">KISS</span>, stands for Keep It Simple, Stupid. It means that you have to look for the most simple way of coding
+                          your method. There are often many ways of reaching the same goal and KISS is simply a way for you to choose the
+                          most simple way so your code maintains its readability. 
+                      </p>
+          </div>
+          <div class="column">
+                  <p>
+                          <span class="bigger">Separation of concerns</span>, means that you divide your content in seprate
+                          pieces. A good example would be that instead of styling inside the html file, you create a separate CSS file.
+                          That way, you keep it clean and structured.
+                      </p>
+          </div>
+        </div>
+        
 
-    </div>
-    <div class="site-description">
-      <p class="description-text">On this website you will find some fun information about <br> HTML, CSS and how to write a Clean Code!</p>
+  
+  
+  
+  <p>In Summary, clean code means that you keep your code
+      organized and as simple as possible. In the end, who doesn't like a clean and tidy room :)
+  </p>
 
-    </div>
-
+</div>
 
   </div>
   <footer>
