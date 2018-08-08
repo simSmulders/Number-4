@@ -5,7 +5,6 @@ body {
 }
 
 .site-title {
-    
     font-size: 40px;
     text-align: center;
     /* margin: auto; */
@@ -17,8 +16,6 @@ body {
     width: 130px;
     height: 130px;
     margin: 40px;
-
-
 }
 
 .header-logo-bar {
@@ -33,13 +30,40 @@ body {
   background-color: grey;
 }
 
+.hero-img{
+   width: 100%;
+}
+
+.site-description{
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+} 
+
+.description-text{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 45px;
+    padding: 20px;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
-  height: 25px;
+  height: 60px;
   background-color: aliceblue;
   width: 100%;
   margin: 0;
+  justify-content: center;
+}
+.icons-container{
+    margin: auto;
+    text-align: center;
+}
+.social-media-icons{
+    width: 35px;
+    height:  35px;
+    padding-right: 30px;
+    padding-top: 13px;
 }
 
 .subs {
