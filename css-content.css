@@ -1,0 +1,18 @@
+.css-content-div {
+    font-family: 'Walter Turncoat', cursive;
+    width: 60%;
+    margin: auto 20%;
+}
+
+.css-content-img {
+    text-align: center;
+    object-fit: cover;
+}
+
+.css-content-text {
+    margin-bottom: 100px;
+}
+
+p{
+    text-align: justify;
+}
