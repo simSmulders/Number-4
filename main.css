@@ -22,3 +22,11 @@ footer {
   position: absolute;
   bottom: 0px;
 }
+
+.subs {
+  display: none;
+}
+
+.section {
+  display: inline;
+}
