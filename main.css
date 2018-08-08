@@ -1,5 +1,6 @@
 body {
-  position: relative;
+  min-height: 100%;
+  margin: 0;
 }
 
 h1{
@@ -14,13 +15,17 @@ h1{
 }
 
 header {
-  height: 20vw;
+  height: 200px;
   background-color: yellow;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
+  height: 25px;
+  background-color: aliceblue;
+  width: 100%;
+  margin: 0;
 }
 
 .subs {
