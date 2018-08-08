@@ -6,31 +6,35 @@
   <title>IPS - How to WEBDEV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat|Varela+Round|Raleway|Nunito" rel="stylesheet">
   <script src="main.js"></script>
 </head>
 <body>
   <header>
     <div class="header-logo-bar">
         <img class="ips-logo" src="images/ips-logo.png" alt="logo">
-        <h1>International Primary School</h1>
-
+        <h1 class="site-title">International Primary School</h1>
     </div>
     <!-- MENU SECTION-->
     <div class="nav">
       <ul class="menu">
         <li class="section">
-          HTML
+          <button class="sectionBtn">HTML</button>
           <ul class="subs">
-            <li class="sub-section">
-              What to use it for
-            </li>
-            <li class="sub-section">
-                Tags and Attributes
-            </li>
+            <a href="html-1.html" class="sub-section-link">
+              <li class="sub-section">
+                What to use it for
+              </li>
+            </a>
+            <a href="html-2.html" class="sub-section-link">
+              <li class="sub-section">
+                  Tags and Attributes
+              </li>
+            </a>
           </ul>
         </li>
         <li class="section">
-          CSS
+            <button class="sectionBtn">CSS</button>
             <ul class="subs">
               <li class="sub-section">
                 What to use it for
@@ -50,7 +54,7 @@
             </ul>
         </li>
         <li class="section">
-          Clean Code
+            <button class="sectionBtn">Clean Code</button>
             <ul class="subs">
               <li class="sub-section">
                 Refactoring
@@ -65,21 +69,25 @@
     </div>
   </header>
   <div id="main-content">
+
     <!-- Content of other pages should be imported in this div by javascript -->
     <div class="hero-image">
+      <img class="hero-img" src="images/hero-image-1.jpg" alt="Hero Image">
 
     </div>
     <div class="site-description">
+      <p class="description-text">On this website you will find some fun information about <br> HTML, CSS and how to write a Clean Code!</p>
 
     </div>
 
 
   </div>
   <footer>
-    <a href="#">link 1</a>
-    <a href="#"><img src="" class="fb"></a>
-    <a href="#"><img src="" class="tw"></a>
-    <a href="#"><img src="" class="li"></a>
+      <div class="icons-container">
+        <a href="#" ><img src="images/FBIcon.png" class="social-media-icons" alt="Facebook"></a>
+        <a href="#" ><img src="images/LinkedInIcon.png" class="social-media-icons" alt="LinkedIn"></a>
+        <a href="#"><img src="images/Twitter.png" class="social-media-icons" alt="Twitter"></a>
+    </div>
   </footer>
   
 </body>
