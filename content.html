@@ -1,67 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="clean.css" />
+    <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
 
-<h1>1. HTML – what to use it for</h1>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <h1>8.	Clean Code/ Refactoring</h1>
+        <p> Remember the times that one of your parents order you to clean up your room? 
+        And probably you think at those moments: Stop nagging, let me just continue playing. 
+        Until at a certain moment when you want to play with your toy dinosaur and you cannot find it anywhere.
+        </p>
 
-<h2>What is HTML?</h2>
+        <img id="messyroom" src="images/messyroom.jpg">
 
-<p>HTML is the structure of a webpage. It stands for Hypertext Markup Language. This is a difficult word! What it means is that it’s just the way of preparing the website that any browser can read. For example, all the text on this website is programmed in HTML.<p>
-
-<!--screenshot of HTML code of this page-->
-<p>This picture might look a bit complicated, but this is the code of the page you’re currently looking at. Pretty cool, right?</p>
-
-<h1>2.	HTML/ Tags & Attributes</h1>
-
-<p>As you can see in the photo, all lines begin and end with funny characters: <>. In between you can see p’s, h1’s, img’s. What does this mean?<p>
-
-<!--picture of book-->
-<p>These are called Tags. They tell the browser what type of text should be displayed. You can compare this to a book. A book contains chapters, titles, subtitles, paragraphs, images, etcetera.</p>
-
-
-<h1>3.	CSS/ What to use it for</h1>
-
-<h2>What is CSS?</h2>
-
-<p>CSS stands for Cascading Style Sheets. It is used to make to website look pretty.</p> 
-
-<h1>4.	CSS/ Rules, Declarations and Properties</h1>
-
-<h1>5.	CSS/ Cascading</h1>
-<h1>6.	CSS/ Box Model, margins, borders and paddings</h1>
-<h1>7.	CSS/ FlexBox</h1>
-<<<<<<< HEAD
-
-
-<h1>8.	Clean Code/ Refactoring</h1>
-<p> Remember the times that one of your parents order you to clean up your room? 
-    And probably you think at those moments: Stop nagging, let me just continue playing. 
-    Until at a certain moment when you want to play with your toy dinosaur and you cannot find it anywhere.
-    Than you realize that perhaps your parents had a valid point when they asked you to clean up your mess.
-    When a nicely cleaned up room you would have found your dinosaur in a second. 
+        <p>Than you realize that perhaps your parents had a valid point when they asked you to clean up your mess.
+        When a nicely cleaned up room you would have found your dinosaur in a second. 
+        
+        That is what is meant with clean code. If you organize your code in a nice manner it is easier to find 
+        certain pieces of code back. Especially if you want other people to have a look at your code as well. 
+        Imagine what would happen if you ask someone else to look in your mess to your toy dinosaur!
     
-    That is what is meant with clean code. If you organize your code in a nice manner it is easier to find 
-    certain pieces of code back. Especially if you want other people to have a look at your code as well. 
-    Imagine what would happen if you ask someone else to look in your mess to your toy dinosaur!
-
-    <!--picture of a puzzled person-->
-</p>
- <h3>Refactoring</h3>    
-
-</p> Refactoring means that you try to keep the lines of code as short and simple as possible. 
-     This way your code is easier to read, not only for yourself but for others also.
-
-     Example: 
-</p>
-
-
-<h1>9.	Clean Code/ DRY, KISS and Separation of concerns</h1>
-<p> 
-    DRY, what does it mean? Exept for the fact that it doesn't rain ... It is an acronym 
-    for Don't Repeat Yourself. Even though this sounds very logical it does happen easily 
-    when youre code is getting more and more extended and complex. 
-</p>
-=======
-<h1>8.	Clean Code/ Refactoring</h1>
-<h1>9.	Clean Code/ DRY, KISS and Separation of concerns</h1>
->>>>>>> 8bc53b807bd387fa26abb860c254dd710e815665
+        <!--picture of a puzzled person-->
+        </p>
+        <h3>Refactoring</h3>    
+    
+        </p> Refactoring means that you try to keep the lines of code as short and simple as possible. 
+            This way your code is easier to read, not only for yourself but for others also.
+    
+            <div class="row">
+                <div class="column">
+                    <p>Before:</p>
+                  <img src="images/refactor before.png" alt="before" style="width:100%">
+                </div>
+                <div class="column">
+                    <p>After:</p>
+                  <img src="images/refactor after.png" alt="after" style="width:100%">
+                </div>
+            </div>    
+    
+        <h1>9.	Clean Code/ DRY, KISS and Separation of concerns</h1>
+        <p> 
+            <span class="bigger">DRY</span>, what does it mean? Exept for the fact that it doesn't rain ... It is an acronym 
+            for Don't Repeat Yourself. Even though this sounds very logical it does happen easily 
+            when youre code is getting more and more extended and complex. It happens a lot that
+            at some point you have created a piece of code twice for the same purpose. It is not 
+            hard to imagine that this complicates your code and an important part of clean code is 
+            to avoid this.
+            </p>
+            <p>
+                <img id="kiss" src="images/kiss.png">
+            <span class="bigger">KISS</span>, stands for Keep It Simple, Stupid. It means that you have to look
+            for the most simple way of coding your method. There are often many ways of reaching the same goal and 
+            KISS is simply a way for you to choose the most simple way so your code maintains its readability.
+    
+            In Summary, clean code means that you keep your code organized and as simple as possible. In the end,
+            who doesn't like a clean and tidy room :)
+        </p>
+    
+    </div>
+</body>
+</html>
 
 
 

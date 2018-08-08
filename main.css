@@ -1,24 +1,135 @@
 body {
-  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-family: sans-serif;
 }
 
-h1{
-    display: inline;
-    /* text-align: ; */
-    margin: auto;
+.site-title {
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0px 0px 50px;
+    font-family: 'Raleway', sans-serif;
+    vertical-align: top;
 }
 .ips-logo{
-    width: 150px;
+    width: 130px;
+    height: 130px;
     margin: 40px;
-
 }
 
-header {
-  height: 20vw;
-  background-color: yellow;
+.header-logo-bar {
+  display: flex;
+  height: 200px;
+  background-color: #ffd456;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color:white;
+  font-family: 'Walter Turncoat', sans-serif;
+}
+
+.hero-img{
+   width: 100%;
+}
+
+.site-description{
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+} 
+
+.description-text{
+    font-family: 'Walter Turncoat', sans-serif;
+    font-size: 45px;
+    padding: 20px;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
+  height: 60px;
+  background-color: aliceblue;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+.icons-container{
+    margin: auto;
+    text-align: center;
+}
+.social-media-icons{
+    width: 35px;
+    height:  35px;
+    padding-right: 30px;
+    padding-top: 13px;
+}
+
+.menu {
+  margin: auto;
+  height: 100%;
+  padding: 0 0;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.subs {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.section {
+  display: inline;
+  /* padding-right: 30px; */
+  width: 150px;
+  height: 100%;
+  border: 2px;
+  
+  float: left;
+  
+}
+
+/* Dropdown button */
+.section .sectionBtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.section:hover .sectionBtn {
+  background-color: #1EB4E9;
+}
+
+
+.section:hover .subs{
+    display: inline;
+}
+
+.sub-section:hover {
+  background-color: #89C149;
+  height: 30px;
+}
+
+.sub-section {
+  height: 30px;
+  vertical-align: middle;
+  padding: 10px;
+  /* list-style-type: none; */
+}
+
+.sub-section-link {
+  text-decoration: none;
+
 }
