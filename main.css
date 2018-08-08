@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 h1{
     display: inline;
     /* text-align: ; */
@@ -7,4 +11,14 @@ h1{
     width: 150px;
     margin: 40px;
 
+}
+
+header {
+  height: 20vw;
+  background-color: yellow;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
 }
